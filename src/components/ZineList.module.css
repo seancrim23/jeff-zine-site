@@ -1,0 +1,4 @@
+.zineListContainer {
+    min-height: calc(100vh-35px);
+    padding-bottom: 10px;
+}

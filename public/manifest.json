@@ -3,12 +3,12 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "jeff_zine_thumb.png",
+      "src": "https://storage.googleapis.com/zines-jeff/resources/jeff_zine_thumb.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "jeff_zine_thumb.png",
+      "src": "https://storage.googleapis.com/zines-jeff/resources/jeff_zine_thumb.png",
       "type": "image/png",
       "sizes": "192x192"
     },

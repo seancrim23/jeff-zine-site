@@ -8,6 +8,19 @@
     outline-width: 2px;
 }
 
+.zineDesc {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.zineTitle {
+    text-align: center;
+    font-family: 'Roboto';
+    margin-bottom: -10px;
+    font-size: 24px;
+}
+
 .coverLink {
     width: 15%;
     height: auto;

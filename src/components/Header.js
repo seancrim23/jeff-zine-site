@@ -1,8 +1,11 @@
-import jeff_zine_header from '../assets/img/jeff_zine_header.png';
+//TODO
+//fully move component to material ui styling
 
 function Header() {
-    //style the header
-    //grab the pic from google store
+    //TODO
+    //pull this dynamically
+    var jeff_zine_header = "https://storage.googleapis.com/zines-jeff/resources/jeff_zine_header.png";
+
     return (
         <>
             <div style={{paddingBottom: '15px', paddingTop: '10px'}}>

@@ -1,13 +1,21 @@
 import Zine from "./Zine";
-import jz1 from '../assets/img/jeff_zine_vol_1_cover.png'
-//component representing a list of zines
-//make this dynamic at some point, doesnt really have to be but would be nice project
-//ideally this should pull all of the zines and then display each one by one
+import style from './ZineList.module.css';
+
+//TODO
+//fully move over to material ui styling
+//make zine list dynamic, db driven
+//should ideally be able to load all zine info in a form
+
 function ZineList() {
+    //TODO
+    //make both of these dynamic
+    var jz1 = "https://storage.googleapis.com/zines-jeff/cover/jeff_zine_vol_1_cover.png";
+    var jz1pdf = "https://storage.googleapis.com/zines-jeff/fullzine/jeff_zine_vol_1.pdf";
+
     return (
         <>
-            <div style={{paddingBottom: '10px'}}>
-                <Zine title='JEFF ZINE VOLUME 1' cover={jz1} description='Volume 1 of Jeff Zine - released November 5th, 2023' />
+            <div className={style.zineListContainer}>
+                <Zine title='JEFF ZINE VOLUME 1' cover={jz1} description='Volume 1 of Jeff Zine - released November 5th, 2023' pdfLink={jz1pdf} />
             </div>
         </>
     );

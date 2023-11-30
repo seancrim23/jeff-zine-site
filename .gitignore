@@ -2,6 +2,8 @@
 
 # local files dont need in github
 /assets
+/assets/pdf
+/assets/img
 app.yaml
 
 # dependencies
